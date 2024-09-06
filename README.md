@@ -6,4 +6,15 @@
 
 Читайте всю информацию о курсе на его странице, смотрите трейлер, проходите бесплатные уроки, изучайте отзывы других учеников и только после этого принимайте решение о покупке данного курса!
 
-[Записаться на курс](https://stepik.org/113402)
+[Записаться на курс](https://stepik.org/a/113402)
+
+---
+### ITDoctor на
+
+- [YouTube](https://youtube.com/@ITDoctor)  
+- [Stepik](https://stepik.org/users/387773773/teach)  
+- [Телеграм](https://t.me/itdoctor_official)  
+- [Дзен](https://dzen.ru/itdoctor)  
+- [VK](https://vk.com/itdoctorstudio)  
+- [Boosty](https://boosty.to/itdoctor)  
+- [Rutube](https://rutube.ru/channel/23500045/)  
