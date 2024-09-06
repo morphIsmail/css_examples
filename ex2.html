@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример 2 - Наложение текстуры на текст</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    div {
+      background: url(texture.jpg);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+
+      font-size: 100px;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div>ITDoctor</div>
+
+  <a href="index.html">Главная</a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip" target="_blank">Подробнее</a>
+  <a href="https://caniuse.com/?search=background-clip" target="_blank">Поддержка</a>
+</body>
+</html>

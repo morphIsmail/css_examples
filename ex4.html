@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример 4 - Эффект матового стекла</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-image: url(bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    div {
+      background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0));
+      -webkit-backdrop-filter: blur(3px);
+      backdrop-filter: blur(3px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+
+      border-radius: 10px;
+      color: #fff;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      height: 50px;
+      width: 400px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div>ITDoctor</div>
+
+  <a href="index.html">Главная</a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter" target="_blank">Подробнее</a>
+  <a href="https://caniuse.com/?search=backdrop-filter" target="_blank">Поддержка</a>
+</body>
+</html>

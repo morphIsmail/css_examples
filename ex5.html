@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример 5 - Новый синтаксис медиа запросов</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /*
+    @media (min-width: 300px) and (max-width: 500px) {
+      body {
+        background-color: #ffae4a;
+      }
+    }
+    */
+    @media (300px <= width <= 500px) {
+      body {
+        background-color: #ffae4a;
+      }
+    }
+  </style>
+</head>
+<body>
+  <p>Цвет фона имзенится когда ширина блока будет в диапазоне между 300 и 500 px включительно.</p>
+
+  <a href="index.html">Главная</a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries" target="_blank">Подробнее</a>
+  <a href="https://caniuse.com/?search=Media%20Queries%3A%20Range%20Syntax" target="_blank">Поддержка</a>
+</body>
+</html>

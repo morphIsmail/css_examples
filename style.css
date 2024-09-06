@@ -1,0 +1,19 @@
+a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #3465af;
+  border-radius: 8px;
+  color: #fff;
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: 0.5s all;
+}
+a:hover {
+  opacity: 0.8;
+}
