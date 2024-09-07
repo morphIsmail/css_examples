@@ -1,3 +1,6 @@
+body {
+  background: #333;
+}
 a {
   display: block;
   text-decoration: none;
@@ -7,7 +10,8 @@ a {
   background-color: #3465af;
   border-radius: 8px;
   color: #fff;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 20px;
   padding: 10px;
   margin-bottom: 10px;
